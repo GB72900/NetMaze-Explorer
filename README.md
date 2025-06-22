@@ -91,12 +91,11 @@ Ubuntu VMs
 
 Azure Resource Manager (ARM) / Portal
 
-## 🧠 What I Learned
-How to build secure network topologies in Azure.
+## 🎓 Lessons Learned
 
-Site-to-site VPN configuration and routing concepts.
+- Configuring secure connectivity between virtual networks with site-to-site VPN
+- Using Bastion to avoid public IP exposure
+- Implementing NSG rules to enforce subnet-level traffic control
+- Troubleshooting IP limits with free-tier subscriptions
 
-Using Bastion to securely access VMs with no public IP.
-
-Network security best practices with NSGs and Private Link.
 
