@@ -1,6 +1,21 @@
 # 🛰️ NetMaze Explorer – Hybrid Networking in Azure
 ## 📌 Description
 A cloud networking project simulating a hybrid on-premises-to-Azure environment using VPN Gateway, Bastion, Private Link, NSGs, and more. Designed to simulate real-world networking scenarios for secure, scalable virtual environments.
+## 📅 Phase-by-Phase Timeline
+
+| Phase       | Description                                                                                     | Status       |
+|-------------|-------------------------------------------------------------------------------------------------|--------------|
+| **Phase 1** | Created `main_vnet` with three subnets: WebApp, Admin, and Database                             | ✅ Completed |
+| **Phase 2** | Simulated on-premises network with `onprem_vnet` in a separate region                           | ✅ Completed |
+| **Phase 3** | Deployed VPN Gateway in `main_vnet` and a Virtual Network Gateway in `onprem_vnet`              | ✅ Completed |
+| **Phase 4** | Configured Site-to-Site VPN connection between both VNets and verified connectivity             | ✅ Completed |
+| **Phase 5** | Deployed `vm-web`, `vm-admin`, and `vm-db` into respective subnets                               | ✅ Completed |
+| **Phase 6** | Applied Network Security Groups (NSGs) to restrict subnet-level traffic                         | ✅ Completed |
+| **Phase 7** | Deployed Azure Bastion to securely access VMs over SSH without exposing public IPs              | ✅ Completed |
+| **Phase 8** | Attempted to deploy Load Balancer and DNS but was blocked due to free-tier IP quota             | ❌ Skipped   |
+| **Phase 9** | Performed security testing and validated private connectivity between subnets                   | ✅ Completed |
+| **Phase 10**| Reviewed monitoring options and explored logging features for VPN and NSGs                      | ✅ Completed |
+
 ## 📸 Screenshots
 
 ### 1. Subnet Configuration
