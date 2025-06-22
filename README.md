@@ -90,17 +90,7 @@ Azure Private Endpoint (SQL)
 Ubuntu VMs
 
 Azure Resource Manager (ARM) / Portal
-## 🗂️ Repo Structure
-<pre> NetMaze-Explorer/
-├── diagrams/
-│   └── netmaze-diagram.png
-├── screenshots/
-│   └── bastion-ssh.png
-│   └── nsg-rules.png
-├── notes/
-│   └── testing-notes.md
-├── README.md
-</pre>
+
 ## 🧠 What I Learned
 How to build secure network topologies in Azure.
 
